@@ -20,7 +20,7 @@ import time
 
 # Load the synthetic dataset
 try:
-    df = pd.read_csv(r"C:\WSGN_Project_Data\WSGN_Jamming_Spoofing_Dataset.csv")
+    df = pd.read_csv("WSGN_Project_Data\WSGN_Jamming_Spoofing_Dataset.csv")
     print("Dataset loaded successfully.")
 except FileNotFoundError:
     print("Error: Dataset file not found. Please ensure CSV is in the directory.")
